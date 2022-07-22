@@ -6,7 +6,12 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 
+// how to include header files belonging to this package
 #include <cool_B/hdr1.h>
+
+// how to include header files from a dependent package
+#include <module_B/B.h>
+
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
