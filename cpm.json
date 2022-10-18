@@ -1,8 +1,8 @@
 {
     "name": "cool_B",
-    "git": "git@github.com:neacsum/example_cool_B.git",
+    "git": "https://github.com/neacsum/example_cool_B.git",
     "depends": [
-        {"name": "multi_mod", "git": "git@github.com:neacsum/example_multi_mod.git", "module": "module_B"}
+        {"name": "multi_mod", "git": "https://github.com/neacsum/example_multi_mod.git", "module": "module_B"}
     ],
     "build": [
         {"cmd": "build.bat"}
