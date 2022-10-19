@@ -2,6 +2,7 @@
     "name": "cool_B",
     "git": "https://github.com/neacsum/example_cool_B.git",
     "depends": [
+        {"name": "multi_mod", "git": "https://github.com/neacsum/example_multi_mod.git", "module": "module_A"},
         {"name": "multi_mod", "git": "https://github.com/neacsum/example_multi_mod.git", "module": "module_B"}
     ],
     "build": [
