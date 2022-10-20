@@ -4,10 +4,10 @@
     "git":   "git@github.com:neacsum/example_cool_B.git",
     "depends": [
         {
-            "name":   "multi_mod", 
-            "https":  "https://github.com/neacsum/example_multi_mod.git", 
-            "git":    "git@github.com:neacsum/example_multi_mod.git", 
-            "module": ["module_A", "module_B"]
+            "name":     "multi_mod", 
+            "https":    "https://github.com/neacsum/example_multi_mod.git", 
+            "git":      "git@github.com:neacsum/example_multi_mod.git", 
+            "modules":  ["module_A", "module_B"]
         }
     ],
     "build": [
