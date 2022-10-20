@@ -1,9 +1,14 @@
 {
-    "name": "cool_B",
-    "git": "https://github.com/neacsum/example_cool_B.git",
+    "name":  "cool_B",
+    "https": "https://github.com/neacsum/example_cool_B.git",
+    "git":   "git@github.com:neacsum/example_cool_B.git",
     "depends": [
-        {"name": "multi_mod", "git": "https://github.com/neacsum/example_multi_mod.git", "module": "module_A"},
-        {"name": "multi_mod", "git": "https://github.com/neacsum/example_multi_mod.git", "module": "module_B"}
+        {
+            "name":   "multi_mod", 
+            "https":  "https://github.com/neacsum/example_multi_mod.git", 
+            "git":    "git@github.com:neacsum/example_multi_mod.git", 
+            "module": ["module_A", "module_B"]
+        }
     ],
     "build": [
         {"cmd": "build.bat"}
