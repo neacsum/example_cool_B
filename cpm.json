@@ -11,6 +11,8 @@
         }
     ],
     "build": [
-        {"cmd": "build.bat"}
-    ] 
+      {"os": "windows", "cmd": "cmake", "args": ["--workflow", "--preset=x64"]},
+      {"os": "windows", "cmd": "cmake", "args": ["--workflow", "--preset=x86"]},
+      {"os": "linux", "cmd": "cmake", "args": ["--workflow", "--preset=gcc"]}
+  ] 
 }

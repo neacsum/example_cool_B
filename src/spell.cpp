@@ -16,6 +16,10 @@
 #include <string.h>
 #include <math.h>
 
+#ifndef _countof
+#define _countof(A) (sizeof(A)/sizeof(A[0]))
+#endif
+
 void spell (unsigned long long num, char* buffer)
 {
   if (num < 20)
