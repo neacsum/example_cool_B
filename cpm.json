@@ -7,7 +7,8 @@
             "name":     "multi_mod", 
             "https":    "https://github.com/neacsum/example_multi_mod.git", 
             "git":      "git@github.com:neacsum/example_multi_mod.git", 
-            "modules":  ["module_A", "module_B"]
+            "modules":  ["module_A", "module_B"],
+            "branch":   "new_branch"
         }
     ],
     "build": [
